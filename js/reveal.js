@@ -144,7 +144,7 @@
 			parallaxBackgroundVertical: null,
 
 			// Number of slides away from the current that are visible
-			viewDistance: 6,
+			viewDistance: 3,
 
 			// Script dependencies to load
 			dependencies: []
