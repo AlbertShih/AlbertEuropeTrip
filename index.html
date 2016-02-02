@@ -28,9 +28,12 @@
 					$("body").mousedown(function(){
 						if(Reveal.nextFragment() == false)
 							Reveal.next();
-					}
+					}  
 				)}
+
+
 			);
+			
 
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
@@ -44,19 +47,18 @@
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 	</head>
-
 	<body>
-
+	
 		<div class="reveal">
-
+		
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-
-				<section data-background-video="https://s3-ap-northeast-1.amazonaws.com/europevideos/flying2.mp4" data-background-color="#000000" data-background-video-loop>
+			
+				<section data-state="no-need-music" data-background-video="https://s3-ap-northeast-1.amazonaws.com/europevideos/flying2.mp4" data-background-color="#000000" data-background-video-loop>
 				
 					<div class="fragment fade-out" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:-10%;padding: 20px;">
 						<h2>A Journey to Europe</h2>
-						<h3>French Paris<br />Germany Munich<br />Hungary Budapest</h3>
+						<h3>French Paris<br>Germany Munich<br>Hungary Budapest</h3>
 						<p>
 							<small>Created by <a href="https://www.instagram.com/albert_shih/">AlbertShih</a></small>
 						</p>
@@ -68,8 +70,8 @@
 						</p>
 					</div>
 				</section>
-			
-				<section id="video1" data-background-video="https://s3-ap-northeast-1.amazonaws.com/europevideos/flytofrenchparis2.mp4" data-background-color="#000000">
+				
+				<section data-state="no-need-music" id="video1" data-background-video="https://s3-ap-northeast-1.amazonaws.com/europevideos/flytofrenchparis2.mp4" data-background-color="#000000">
 				<script type="text/javascript">
 					var video = document.getElementById("video1");
                     video.onended = function (e) {
@@ -79,37 +81,36 @@
                 	};
             	</script>	
 					<h2>
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
 					</h2>
 					<b>From Taiwan to Paris</b></p>
 					<p class="fragment current-visible">Welcome to Paris!</p>
 				</section>	
 
 				<section>
-
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00390.jpg">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00390.jpg">
 						<div  style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:20%; padding: 20px;">
 						<h3>Bonjour!</h3>
 						<h3>Press ↓ to take the Journey with me in Paris, French,  or press → to visit other place.</h3>
 						</div>
 					</section>
 					
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00390.jpg">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00390.jpg">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							This was my first view that I left the Metro Station at 7 am.
-							<br />
+							<br>
 							The temperature here was 8°C.
 						</p>
 						</div>
 					</section>
-
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00398.jpg">
+			
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00398.jpg">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							This leaf fortunately fell on me.
@@ -117,7 +118,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00806.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00806.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Behind me, the Generator, was the Hostel I stayed.
@@ -126,16 +127,16 @@
 						
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00421.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00421.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
-							The Generator.<br />
+							The Generator.<br>
 							This is the cillout lounge inside.
 						</p>
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01163.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01163.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							A view to it's Cafe.
@@ -143,7 +144,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00428.jpg" data-background-size="contain">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00428.jpg" data-background-size="contain">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Let's have a breakfast in the hostel!
@@ -151,7 +152,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00442.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00442.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							I smell it! It's Paris.
@@ -159,7 +160,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00558.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00558.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Window shopping with my sister and my Mom at the Avenue des Champs-Élysées, many of the stores were closed because of the Christmas holiday.
@@ -167,7 +168,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00595.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00595.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							You could buy all the luxury brands here but Christmas. They are taking vaction.
@@ -175,7 +176,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00626.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00626.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							The Crepe here in French is awesome with a soft taste! It's different from Crepe in Taiwan with a crisp taste.
@@ -183,7 +184,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00668.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00668.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Walking down the Seine River and singing "chansons" of French are definitely romantic things.
@@ -191,7 +192,7 @@
 						</div>
 					</section>
 					
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00643.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00643.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							The middle of the Avenue des Champs-Élysées. At the end is the Place de la Concorde.
@@ -199,7 +200,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00709.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00709.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Bonsoir! It's a good idea to have dinner in Latin Quarter.
@@ -207,7 +208,7 @@
 						</div>
 					</section>
 					
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00728.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00728.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Time Was Soft There: A Paris Sojourn at Shakespeare & Co. 
@@ -215,7 +216,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00749.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00749.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Cathédrale Notre-Dame de Paris in a full moon night.
@@ -223,7 +224,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00793.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00793.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Centre Pompidou, it houses the Public Information Library, the Musée National d'Art Moderne, which is the largest museum for modern art in Europe, and IRCAM, a centre for music and acoustic research.
@@ -231,7 +232,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00783.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00783.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							In the basement of Pompidou, let me take a selfie!
@@ -239,7 +240,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01100.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01100.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							I took this picture thrillingly because the atmosphere in the metro is wired and terrifying.
@@ -247,7 +248,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00757.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00757.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Midnight in Paris seems very Poetic, reminding me of A Moveable Feast written by Hemingway.
@@ -255,7 +256,7 @@
 						</div>
 					</section>
 					
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00758.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00758.jpg" data-background-size="">
 						<div class="fragment current-visible" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Actually, there is a lot of crime and variety kinds of money cheat in Paris. It is the opposite of the city. So, if you come to Paris, you need to be very careful. Not until I had been to Paris did I realize why foreign people always said "Taiwan is a safe place to live".
@@ -263,7 +264,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00758.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00758.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							To be continued...
@@ -272,16 +273,17 @@
 					</section>
 
 				</section>
-				<section>
+
+				<section data-state="need-music">
 					
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00819.jpg">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00819.jpg">
 						<div  style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:20%; padding: 20px;">
 						<h3>Bonjour!</h3>
 						<h3>Press ↓ to take the Journey with me in Paris, French, or press → to visit other place.</h3>
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00819.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00819.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Let's go Montmartre!
@@ -289,7 +291,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00837.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00837.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Love the Pret A Manger cafe from London, UK.
@@ -297,7 +299,7 @@
 						</div>
 					</section>
 					
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00877.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00877.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Merry-go-round!
@@ -305,7 +307,7 @@
 						</div>
 					</section>
 					
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00890.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00890.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Harp player near the Sacré-Cœur. Such beautiful scenery!
@@ -313,7 +315,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00896.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00896.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Basilique du Sacré-Cœur.
@@ -321,7 +323,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00892.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00892.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Overview from above.
@@ -329,7 +331,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00947.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00947.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Little cutie named zoey :D
@@ -337,7 +339,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00997.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC00997.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Moulin rouge, filled with a lot of sex shops around.
@@ -345,7 +347,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01038.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01038.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Really crowded at Printemps and Galeries Lafayette.
@@ -353,15 +355,15 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01093.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01093.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
-							Light Dome Of Galleries Lafayette. Gorgeous!
+							Light dome of Galleries Lafayette. It almost blinded me.
 						</p>
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01063.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01063.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							A view of Paris at the rooftop of the Galleries Lafayette.
@@ -369,7 +371,7 @@
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01159.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01159.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
 							Paris is the chillout & lounge music's pilgrimage. 
@@ -378,19 +380,122 @@
 						</div>
 					</section>
 
-					<section data-background-video="https://s3-ap-northeast-1.amazonaws.com/europevideos/shining.mp4" data-background-color="#000000" data-background-video-loop>
+					<section data-state="need-music" data-background-video="https://s3-ap-northeast-1.amazonaws.com/europevideos/shining.mp4" data-background-color="#000000" data-background-video-loop>
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
-							Here we are, the Eiffel Tower.<br />
+							Here we are, the Eiffel Tower.<br>
 							It shines every days at 8pm.
 						</p>
 						</div>
 					</section>
 
-					<section data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01129.jpg" data-background-size="">
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01129.jpg" data-background-size="">
 						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
 						<p>
-							The Eiffel Tower, a symbol of Paris.
+							A symbol of Paris.<br>
+							The Eiffel Tower.
+						</p>
+						</div>
+					</section>
+
+				</section>
+
+				<section>
+					
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01170.jpg">
+						<div  style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:20%; padding: 20px;">
+						<h3>Bonjour!</h3>
+						<h3>Press ↓ to take the Journey with me in Paris, French, or press → to visit other place.</h3>
+						</div>
+					</section>
+
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01170.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							Having breakfast in the Cafe.<br>
+							An elder is reading a book with sunshine filled.
+						</p>
+						</div>
+					</section>
+
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01181.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							Classic Croissant, coffee and hot chocolate.<br>
+							I'm really a croissant addict. If anyone know where to buy a big croissant like this in Taiwan, please tell me!			
+						</p>
+						</div>
+					</section>
+
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01183.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							Ham and chesse omelet. Yummy! Yummy! Yummy!
+						</p>
+						</div>
+					</section>
+
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01213.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							Haha, What are you guys laughing at? 
+						</p>
+						</div>
+					</section>
+
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01243.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							The Musée du Louvre and the glass pyramid designed by Ieoh Ming Pei . (and with two guys thinking they were having a fashion pose lol)
+						</p>
+						</div>
+					</section>
+
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01279.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							Another carrousel.  
+						</p>
+						</div>
+					</section>
+
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01318.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							The flea market of Saint Ouen, there are so many antiques and treasures here.
+							This is a dangerous area in Paris, so I advise everyone not to go in the evening.   
+						</p>
+						</div>
+					</section>
+
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01338.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							When you walk through people who want to sell items (or talk) to you, you must take care of your personal belongings and had better walk with your hands in the pockets quickly. 
+						</p>
+						</div>
+					</section>
+
+					<section data-state="no-need-music" data-background-video="https://s3-ap-northeast-1.amazonaws.com/europevideos/%E9%BE%90%E7%95%A2%E5%BA%A6%E8%81%96%E6%AD%8Cv2.mp4" data-background-color="#000000" data-background-video-loop>
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							Despite the fact that I just said, one thing is more important-finding the lovely guys around you who commit themselves to make the city more happiness.<br>
+						</p>
+						</div>
+					</section>
+
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01367.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							Macarons in different kinds of colors. 
+						</p>
+						</div>
+					</section>
+					
+					<section data-state="need-music" data-background="https://s3-ap-southeast-1.amazonaws.com/europepics/day1_Paris/DSC01371.jpg" data-background-size="">
+						<div class="fragment" style="background-color: rgba(0, 0, 0, 0.6); color: #fff; margin-top:50%;">
+						<p>
+							Farewell to the Avenue des Champs-Élysées! Bye bye Paris!
 						</p>
 						</div>
 					</section>
@@ -712,11 +817,32 @@ Reveal.addEventListener( 'customevent', function() {
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
+					{ src: 'plugin/notes/notes.js', async: true },
+				],
+
 			});
 
-		</script>
+			var audioElement;
+			var nowPlayingMusic = false;
 
+			Reveal.addEventListener( 'need-music', function() {
+				if(nowPlayingMusic == false){
+					if(!audioElement){
+				    	audioElement = new Audio('https://s3-ap-northeast-1.amazonaws.com/europevideos/09+Dans+Mon+I%CC%82le.mp3'); 
+				    	audioElement.loop = true;
+				    } 
+	  				audioElement.play();
+	  				nowPlayingMusic = true;
+  				}
+			}, false );
+		
+			Reveal.addEventListener( 'no-need-music', function() {
+				if(nowPlayingMusic == true){
+	  				audioElement.pause();
+	  				nowPlayingMusic = false;
+  				}
+			}, false );
+
+		</script>
 	</body>
 </html>
